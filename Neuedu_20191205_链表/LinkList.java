@@ -35,5 +35,4 @@ public class LinkList {
         return size;
     }
 
-
 }
