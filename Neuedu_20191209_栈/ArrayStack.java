@@ -1,5 +1,5 @@
 package Neuedu_20191209_栈;
-
+//朱祺钊是傻逼
 public class ArrayStack {
 
     private String[] items; // 数组(用数组实现的栈,成为顺序栈)
