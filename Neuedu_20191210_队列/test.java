@@ -18,7 +18,6 @@ public class test {
         // 一个数据入队,检测到tail=5,且head!=0,所以进行数据搬移操作,搬移后head=0,tail=4
         queue.enqueue("ddd");
 
-        System.out.println(queue.toString());
-
+        queue.printAll();
     }
 }

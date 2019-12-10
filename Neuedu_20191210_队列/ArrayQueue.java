@@ -65,13 +65,11 @@ public class ArrayQueue {
         return ret;
     }
 
-    @Override
-    public String toString() {
-        return "ArrayQueue{" +
-                "items=" + Arrays.toString(items) +
-                ", n=" + n +
-                ", head=" + head +
-                ", tail=" + tail +
-                '}';
+    public void printAll(){
+        if(n == 0)return;
+        for(int i=head;i<tail;i++){
+            System.out.print(items[i] + " ");
+        }
+        System.out.println();
     }
 }
